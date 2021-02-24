@@ -1,0 +1,254 @@
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #272C2F;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: white;
+}
+
+ nav {
+  background-color: #272C2F;
+
+
+}
+
+.btn.btn-primary:hover {
+  border-color: #162B27;
+
+}
+
+.logo {
+  background-color:#47981F;
+  color: white;
+  padding: 1rem;
+  cursor: pointer
+}
+
+
+.nav-pills .nav-link.active {
+
+    background-color:#47981F;
+    color: white;
+
+  }
+
+
+
+
+.mr-auto.navbar-nav.nav-pills > a {
+  color: white;
+  margin: 1rem;
+}
+
+.mr-auto.navbar-nav.nav-pills > a:hover {
+  background: #47981F;
+  opacity: .5;
+}
+
+.row {
+      text-align: left;
+      justify-content: space-evenly;
+      position: relative;
+      top: 4rem;
+      border-radius: .25rem;
+    }
+
+.col-md-3.card {
+  background-color:#1C4F06;
+  color:white;
+  margin: 1rem;
+  box-shadow: 2px 2px 2px 2px rgba(149,164,177,0.2);
+
+}
+
+.col-md-3.card .card-body {
+  position: relative;
+}
+
+.col-md-3.card .card-body .card-title {
+  margin-bottom: 3rem;
+}
+
+
+div.col-md-3.card .card-body a {
+  background: #9CF632;
+  color: #162B27;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+
+}
+
+div.col-md-3.card a:hover {
+  background: #162B27;
+  color: #9CF632;
+  border-color: #162B27;
+}
+
+.concerts-container {
+  position: relative;
+  height: 100%;
+}
+
+.search__form {
+  position: relative;
+  
+}
+
+.search-button {
+  position: absolute;
+  top: 1.5rem;
+}
+
+.search-button:hover,
+.search-button:active,
+.search-button:focus
+ {
+  border-color: #162B27;
+  outline: none !important;
+  box-shadow: none;
+
+}
+
+.loading-bar {
+  position: absolute;
+  height: 10rem;
+  width: 100%;
+  top: 4rem;
+  background-color: #9CF632 !important;
+  color:  #162B27 !important;
+  box-shadow: none !important;
+  border-color: #9CF632 !important;
+  outline: none !important;
+  opacity: inherit;
+  
+}
+
+.loading-bar:hover,
+.loading-bar:active,
+.loading-bar:focus
+ {
+  background-color: #9CF632 !important;
+  color: #162B27;
+  border-color: #9CF632;
+  outline: none !important;
+  box-shadow: none ;
+}
+
+
+
+
+.jumbotron {
+  background: black;
+  color: white;
+  position: relative;
+  padding: 7rem;
+  clear: both;
+
+}
+
+.concert-pic {
+  position:absolute;
+  right: 0;
+}
+
+.jumbotron .badge {
+  position: absolute;
+  top:1rem;
+  left: 1rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  background: #0E2F09;
+  font-size: 2rem;
+  color: #92E054;
+  box-shadow: 2px 2px 2px 2px rgba(149,164,177,0.2);
+}
+
+
+.jumbotron h2 {
+  position: absolute;
+  top: 108px;
+  left: 1rem;
+  color: #B5BFD3;
+}
+
+.linkcontainer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+
+}
+
+.jumbotron .form {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+}
+
+
+.btn,
+.jumbotron a.active.btn.btn-primary,
+#root > div > div:nth-child(2) > form > input[type=submit]:nth-child(3),
+#root > div > div:nth-child(2) > form > input.form__submit,
+.btn:active,
+.jumbotron a.active.btn.btn-primary:active {
+  background-color: #47981F;
+  color: #272C2F;
+  margin: 1rem 1rem 1rem 1rem;
+  border-color: #47981F;
+}
+
+.btn:hover,
+.jumbotron a.active.btn.btn-primary:hover,
+#root > div > div:nth-child(2) > form > input[type=submit]:nth-child(3):hover,
+ #root > div > div:nth-child(2) > form > input.form__submit:hover {
+  background-color: #272C2F ;
+  font-weight: bold;
+  color: #47981F !important;
+}
+
+#root > div > div:nth-child(2) > form > input,
+#root > div > div:nth-child(2) > form > input:focus
+ {
+    display: block;
+    margin: 1rem;
+    background: #272C2F;
+    color: #B5BFD3 !important;
+}
+
+#root > div > div {
+    position: relative;
+}
+
+
+#root > div > div > div > div.list-group > div {
+    background-color: #272C2F;
+    color: #47981F 
+}
+
+
+#root > div > div > form > textarea {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+

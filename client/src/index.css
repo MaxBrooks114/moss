@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin&display=swap');
+
+body {
+  margin: 0;
+  font-family:'Cabin';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url('A1rZSHSdG1L._AC_SL1500_.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
